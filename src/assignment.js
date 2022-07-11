@@ -58,14 +58,14 @@ countEvenNumbers([1, 2, 4, 5, 6, 7, 8])
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-function celsiusToFahrenheit(arrayOfNumbers) {
-  const fahrenheit = arrayOfNumbers.map(function(individualEl){
-    return `${Math.trunc((individualEl * 1.8)+ 32)}`
-  })
-  return fahrenheit
-}
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
-celsiusToFahrenheit([30, 40, 50, 60, 70])
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//   const fahrenheit = arrayOfNumbers.map(function(individualEl){
+//     return `${Math.trunc((individualEl * 1.8)+ 32)}`
+//   })
+//   return fahrenheit
+// }
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+// celsiusToFahrenheit([30, 40, 50, 60, 70])
 
 
 // ========================
